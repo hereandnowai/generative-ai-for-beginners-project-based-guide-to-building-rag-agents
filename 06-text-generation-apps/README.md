@@ -4,7 +4,7 @@
 
 > _(Click the image above to view video of this lesson)_
 
-You've seen so far through this curriculum that there are core concepts like prompts and even a whole discipline called "prompt engineering". Many tools you can interact with like ChatGPT, Office 365, Microsoft Power Platform and more, support you using prompts to accomplish something.
+You've seen so far through this curriculum that there are core concepts like prompts and even a whole discipline called "prompt engineering". Many tools you can interact with like ChatGPT, cloud productivity suites, low-code platforms and more, support you using prompts to accomplish something.
 
 For you to add such an experience to an app, you need to understand concepts like prompts, completions and choose a library to work with. That's exactly what you'll learn in this chapter.
 
@@ -68,7 +68,7 @@ There are a few well known libraries for working with LLMs like:
 Then there are libraries that operate on a higher level like:
 
 - **Langchain**. Langchain is well known and supports Python.
-- **Semantic Kernel**. Semantic Kernel is a library by Microsoft supporting the languages C#, Python, and Java.
+- **Semantic Kernel**. Semantic Kernel is an open-source library supporting the languages C#, Python, and Java.
 
 ## First app using openai
 

@@ -125,7 +125,7 @@ Emulating real-world threats is now considered a standard practice in building r
 
 [![Guidance and resources for red teaming](./images/13-AI-red-team.png?WT.mc_id=academic-105485-koreyst)]()
 
-Below are key insights that have shaped Microsoft’s AI Red Team program.
+Below are key insights that have shaped modern AI Red Team programs across the industry.
 
 1. **Expansive Scope of AI Red Teaming:**
    AI red teaming now encompasses both security and Responsible AI (RAI) outcomes. Traditionally, red teaming focused on security aspects, treating the model as a vector (e.g., stealing the underlying model). However, AI systems introduce novel security vulnerabilities (e.g., prompt injection, poisoning), necessitating special attention. Beyond security, AI red teaming also probes fairness issues (e.g., stereotyping) and harmful content (e.g., glorification of violence). Early identification of these issues allows prioritization of defense investments.

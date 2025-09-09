@@ -118,10 +118,10 @@ dependencies:
       - azure-ai-ml
 ```
 
-If you find you getting errors using conda you can manually install the Microsoft AI Libraries using the following command in a terminal.
+If you find you getting errors using conda you can manually install the AI Libraries using the following command in a terminal.
 
 ```
-conda install -c microsoft azure-ai-ml
+conda install -c conda-forge azure-ai-ml
 ```
 
 The environment file specifies the dependencies we need. `<environment-name>` refers to the name you would like to use for your Conda environment, and `<python-version>` is the version of Python you would like to use, for example, `3` is the latest major version of Python.
@@ -207,7 +207,7 @@ Important: when translating text in this repo, please ensure that you do not use
 
 When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repositories using our CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/?WT.mc_id=academic-105485-koreyst). For more information read the Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com) with any additional questions or comments.
+This project has adopted a standard open source code of conduct to ensure a welcoming and inclusive environment for all contributors. For any questions or concerns regarding conduct, please reach out through our project communication channels.
 
 ## Let's Get Started
 

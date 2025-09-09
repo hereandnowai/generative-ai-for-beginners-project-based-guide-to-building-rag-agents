@@ -28,14 +28,14 @@ The development of SLMs aligns with the increasing need for models that can be d
 
 ## Learning Objectives
 
-In this lesson, we hope to introduce the knowledge of SLM and combine it with Microsoft Phi-3 to learn different scenarios in text content, vision and MoE.
+In this lesson, we hope to introduce the knowledge of SLM and combine it with Phi-3 to learn different scenarios in text content, vision and MoE.
 
 By the end of this lesson, you should be able to answer the following questions:
 
 - What is SLM
 - What is the difference about SLM and LLM
-- What is Microsoft Phi-3/3.5 Family
-- How to inference Microsoft Phi-3/3.5 Family
+- What is Phi-3/3.5 Family
+- How to inference Phi-3/3.5 Family
 
 Ready? Let's get started.
 
@@ -74,7 +74,7 @@ The reduced size of SLMs affords them a significant advantage in terms of infere
 
 In summary, while both LLMs and SLMs share a foundational basis in machine learning, they differ significantly in terms of model size, resource requirements, contextual understanding, susceptibility to bias, and inference speed. These distinctions reflect their respective suitability for different use cases, with LLMs being more versatile but resource-heavy, and SLMs offering more domain-specific efficiency with reduced computational demands.
 
-***Note：In this chapter, we will introduce SLM using Microsoft Phi-3 / 3.5 as an example.***
+***Note: In this chapter, we will introduce SLM using Phi-3 / 3.5 as an example.***
 
 ## Introduce Phi-3 / Phi-3.5 Family
 
@@ -86,7 +86,7 @@ Mainly for text generation, chat completion, and content information extraction,
 
 **Phi-3-mini**
 
-The 3.8B language model is available on Microsoft Azure AI Studio, Hugging Face, and Ollama. Phi-3 models significantly outperform language models of equal and larger sizes on key benchmarks (see benchmark numbers below, higher numbers are better). Phi-3-mini outperforms models twice its size, while Phi-3-small and Phi-3-medium outperform larger models, including GPT-3.5
+The 3.8B language model is available on Azure AI Studio, Hugging Face, and Ollama. Phi-3 models significantly outperform language models of equal and larger sizes on key benchmarks (see benchmark numbers below, higher numbers are better). Phi-3-mini outperforms models twice its size, while Phi-3-small and Phi-3-medium outperform larger models, including GPT-3.5
 
 **Phi-3-small & medium**
 
