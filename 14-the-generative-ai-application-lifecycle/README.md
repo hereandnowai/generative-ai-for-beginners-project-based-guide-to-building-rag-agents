@@ -61,23 +61,31 @@ Now, what tools could we use?
 
 ## Lifecycle Tooling
 
-For Tooling, Microsoft provides the [Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys) and [PromptFlow](https://microsoft.github.io/promptflow/index.html?WT.mc_id=academic-105485-koreyst) facilitate and make your cycle easy to implement and ready to go.
+For Tooling, major cloud providers offer comprehensive AI platforms and workflow tools to facilitate and make your development cycle easy to implement:
 
-The [Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys), allows you to use [AI Studio](https://ai.azure.com/?WT.mc_id=academic-105485-koreys). AI Studio is a web portal allows you to Explore models, samples and tools. Managing your resources, UI development flows and SDK/CLI options for Code-First development.
+**Microsoft Azure:**
+- [Azure AI Platform](https://azure.microsoft.com/solutions/ai/) with AI Studio for model exploration and management
+- [PromptFlow](https://microsoft.github.io/promptflow/index.html) for visual workflow development
 
-![Azure AI possibilities](./images/04-azure-ai-platform.png?WT.mc_id=academic-105485-koreys)
+**Amazon Web Services (AWS):**
+- Amazon Bedrock for foundation models and AI application development
+- AWS SageMaker for machine learning lifecycle management
+- AWS CodeWhisperer for AI-assisted coding
 
-Azure AI, allows you to use multiple resources, to manage your operations, services, projects, vector search and databases needs.
+**Google Cloud Platform (GCP):**
+- Vertex AI for ML model development and deployment
+- Google Cloud AI Platform for comprehensive AI workflows
+- Duet AI for Google Cloud for development assistance
 
-![LLMOps with Azure AI](./images/05-llm-azure-ai-prompt.png?WT.mc_id=academic-105485-koreys)
+These platforms allow you to explore models, manage resources, and develop applications using both visual interfaces and code-first approaches.
 
-Construct, from Proof-of-Concept(POC) until large scale applications with PromptFlow:
+Cloud AI platforms allow you to use multiple resources to manage your operations, services, projects, vector search and databases needs.
 
-- Design and Build apps from VS Code, with visual and functional tools
-- Test and fine-tune your apps for quality AI, with ease.
-- Use Azure AI Studio to Integrate and Iterate with cloud, Push and Deploy for quick integration.
+Construct applications from Proof-of-Concept (POC) to large scale deployments using visual workflow tools and SDKs:
 
-![LLMOps with PromptFlow](./images/06-llm-promptflow.png?WT.mc_id=academic-105485-koreys)
+- Design and Build apps from development environments with visual and functional tools
+- Test and fine-tune your apps for quality AI implementation
+- Use cloud AI platforms to integrate, iterate, and deploy for quick integration
 
 ## Great! Continue your Learning!
 

@@ -28,8 +28,8 @@ For this lesson, we want to build a feature for our education startup that allow
 
 To complete this scenario, we will use a combination of:
 
-- `Azure OpenAI` to create a chat experience for the user.
-- `Microsoft Learn Catalog API` to help users find courses based on the request of the user.
+- `Cloud AI Services` to create a chat experience for the user.
+- `Educational Content APIs` to help users find courses based on the request of the user.
 - `Function Calling` to take the user's query and send it to a function to make the API request.
 
 To get started, let's look at why we would want to use function calling in the first place:
@@ -311,13 +311,20 @@ To integrate this into our application, let's take the following steps:
    response_message = response.choices[0].message
    ```
 
-1. Now we will define the function that will call the Microsoft Learn API to get a list of courses:
+1. Now we will define the function that will call an educational content API to get a list of courses:
 
    ```python
    import requests
 
    def search_courses(role, product, level):
-     url = "https://learn.microsoft.com/api/catalog/"
+     # Example using a generic educational content API
+     # This could be adapted for different cloud providers:
+     # - AWS Training and Certification API
+     # - Google Cloud Learning API  
+     # - Microsoft Learn API
+     # - Coursera, edX, or other educational platform APIs
+     
+     url = "https://api.example-education-platform.com/catalog/"
      params = {
         "role": role,
         "product": product,
@@ -333,7 +340,7 @@ To integrate this into our application, let's take the following steps:
      return str(results)
    ```
 
-   Note how we now create an actual Python function that maps to the function names introduced in the `functions` variable. We're also making real external API calls to fetch the data we need. In this case, we go against the Microsoft Learn API to search for training modules.
+   Note how we now create an actual Python function that maps to the function names introduced in the `functions` variable. We're also making real external API calls to fetch the data we need. In this case, we call an educational content API to search for training modules.
 
 Ok, so we created `functions` variables and a corresponding Python function, how do we tell the LLM how to map these two together so our Python function is called?
 

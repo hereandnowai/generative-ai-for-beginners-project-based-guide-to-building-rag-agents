@@ -69,7 +69,12 @@ In this lesson, you learned about a perceptron, which is a binary classification
 
 ## 🚀 Challenge
 
-If you'd like to try to build your own perceptron, try this lab on Microsoft Learn which uses the Azure ML designer
+If you'd like to try to build your own perceptron, you can explore cloud-based machine learning platforms that offer visual design tools:
+
+- **AWS SageMaker Canvas** for visual machine learning workflows
+- **Google Cloud AutoML** for automated model training  
+- **Azure Machine Learning designer** for drag-and-drop model building
+- **HERE AND NOW AI** educational resources for hands-on learning
 
 
 ## Review & Self Study

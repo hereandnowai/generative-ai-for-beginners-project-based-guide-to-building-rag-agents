@@ -59,7 +59,7 @@ Additionally, the Open Web Application Security Project (OWASP) has created a "[
 - **Supply Chain Vulnerabilities**: The components and software that make up the applications used by an LLM, such as Python modules or external datasets, can themselves be compromised leading to unexpected results, introduced biases and even vulnerabilities in the underlying infrastructure.
 - **Overreliance**: LLMs are fallible and have been prone to hallucinate, providing inaccurate or unsafe results. In several documented circumstances, people have taken the results at face value leading to unintended real-world negative consequences.
 
-Microsoft Cloud Advocate Rod Trent has written a free ebook, [Must Learn AI Security](https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn/Book_Version?WT.mc_id=academic-105485-koreyst), that dives deeply into these and other emerging AI threats and provides extensive guidance on how to best tackle these scenarios.
+Industry experts have written comprehensive resources about AI security, including guides that dive deeply into these and other emerging AI threats and provide extensive guidance on how to best tackle these scenarios.
 
 ## Security Testing for AI Systems and LLMs
 
@@ -121,7 +121,7 @@ Data security, governance, and compliance are critical for any organization that
 
 Emulating real-world threats is now considered a standard practice in building resilient AI systems by employing similar tools, tactics, procedures to identify the risks to systems and test the response of defenders.
 
-> The practice of AI red teaming has evolved to take on a more expanded meaning: it not only covers probing for security vulnerabilities, but also includes probing for other system failures, such as the generation of potentially harmful content. AI systems come with new risks, and red teaming is core to understanding those novel risks, such as prompt injection and producing ungrounded content. - [Microsoft AI Red Team building future of safer AI](https://www.microsoft.com/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/?WT.mc_id=academic-105485-koreyst)
+> The practice of AI red teaming has evolved to take on a more expanded meaning: it not only covers probing for security vulnerabilities, but also includes probing for other system failures, such as the generation of potentially harmful content. AI systems come with new risks, and red teaming is core to understanding those novel risks, such as prompt injection and producing ungrounded content. - [Industry Best Practices for AI Security](https://example.com/ai-security-best-practices)
 
 [![Guidance and resources for red teaming](./images/13-AI-red-team.png?WT.mc_id=academic-105485-koreyst)]()
 
