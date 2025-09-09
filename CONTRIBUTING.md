@@ -2,8 +2,7 @@
 
 This project welcomes contributions and suggestions. Most contributions require you to
 agree to a Contributor License Agreement (CLA) declaring that you have the right to,
-and actually do, grant us the rights to use your contribution. For details, visit
-<https://cla.microsoft.com>.
+and actually do, grant us the rights to use your contribution.
 
 > Important: when translating text in this repo, please ensure that you do not use machine translation. We will verify translations via the community, so please only volunteer for translations in languages where you are proficient.
 
@@ -13,8 +12,8 @@ instructions provided by the bot. You will only need to do this once across all 
 
 ## Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/?WT.mc_id=academic-105485-koreyst).
-For more information read the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/?WT.mc_id=academic-105485-koreyst) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has adopted a standard open source code of conduct to ensure a welcoming and inclusive environment for all contributors. 
+For any questions or concerns regarding conduct, please reach out through our project communication channels.
 
 ## Question or Problem?
 
@@ -35,7 +34,7 @@ Whenever you are submitting any changes to the Generative AI for Beginners repos
 - Ensure that all your URLs are wrapped in square brackets followed by a parenthesis with no extra spaces around them or inside them `[]()`.
 - Ensure that any relative link (i.e. links to other files and folders in the repository) starts with a `./` referring to a file or a folder located in the current working directory or a `../` referring to a file or a folder located in a parent working directory.
 - Ensure that any relative link (i.e. links to other files and folders in the repository) has a tracking ID (i.e. `?` or `&` then `wt.mc_id=` or `WT.mc_id=`) at the end of it.
-- Ensure that any URL from the following domains _github.com, microsoft.com, visualstudio.com, aka.ms, and azure.com_ has a tracking ID (i.e. `?` or `&` then `wt.mc_id=` or `WT.mc_id=`) at the end of it.
+- Ensure that any URL from educational or cloud service domains has appropriate tracking parameters at the end of it.
 - Ensure that your links don't have country specific locale in them (i.e. `/en-us/` or `/en/`).
 - Ensure that all images are stored in the `./images` folder.
 - Ensure that the images have descriptive names using English characters, numbers, and dashes in the name of your image.

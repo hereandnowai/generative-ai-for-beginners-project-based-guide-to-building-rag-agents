@@ -93,9 +93,9 @@ This "profile" prompts ChatGPT to create a lesson plan on linked lists. Notice t
 
 ![A prompt in ChatGPT for a lesson plan about linked lists](./images/lesson-plan-prompt.png?WT.mc_id=academic-105485-koreyst)
 
-### Microsoft's System Message Framework for Large Language Models
+### System Message Framework for Large Language Models
 
-[Microsoft has provided guidance](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?WT.mc_id=academic-105485-koreyst) for writing effective system messages when generating responses from LLMs broken down into 4 areas:
+Industry best practices have established effective guidance for writing system messages when generating responses from LLMs broken down into 4 key areas:
 
 1. Defining who the model is for, as well as its capabilities and limitations.
 2. Defining the model's output format.
@@ -162,9 +162,9 @@ To maintain the high-quality performance an application, it's essential to keep 
 
 ### Implementing Responsible AI Practices in Chat Applications
 
-Microsoft's approach to Responsible AI has identified six principles that should guide AI development and use. Below are the principles, their definition, and things a chat developer should consider and why they should take them seriously.
+Industry best practices for Responsible AI have identified six principles that should guide AI development and use. Below are the principles, their definition, and things a chat developer should consider and why they should take them seriously.
 
-| Principles             | Microsoft's Definition                                | Considerations for Chat Developer                                      | Why It's Important                                                                     |
+| Principles             | Definition                                            | Considerations for Chat Developer                                      | Why It's Important                                                                     |
 | ---------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Fairness               | AI systems should treat all people fairly.            | Ensure the chat application does not discriminate based on user data.  | To build trust and inclusivity among users; avoids legal ramifications.                |
 | Reliability and Safety | AI systems should perform reliably and safely.        | Implement testing and fail-safes to minimize errors and risks.         | Ensures user satisfaction and prevents potential harm.                                 |

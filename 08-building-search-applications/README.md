@@ -31,7 +31,7 @@ After completing this lesson, you will be able to:
 
 Creating a search application will help you understand how to use Embeddings to search for data. You will also learn how to build a search application that can be used by students to find information quickly.
 
-The lesson includes an Embedding Index of the YouTube transcripts for the Microsoft [AI Show](https://www.youtube.com/playlist?list=PLlrxD0HtieHi0mwteKBOfEeOYf0LJU4O1) YouTube channel. The AI Show is a YouTube channel that teaches you about AI and machine learning. The Embedding Index contains the Embeddings for each of the YouTube transcripts up until Oct 2023. You will use the Embedding Index to build a search application for our startup. The search application returns a link to the place in the video where the answer to the question is located. This is a great way for students to find the information they need quickly.
+The lesson includes an Embedding Index of YouTube transcripts for educational AI content. This educational content teaches about AI and machine learning concepts. The Embedding Index contains the Embeddings for each of the video transcripts. You will use the Embedding Index to build a search application for our startup. The search application returns a link to the place in the video where the answer to the question is located. This is a great way for students to find the information they need quickly.
 
 The following is an example of a semantic query for the question 'can you use rstudio with azure ml?'. Check out the YouTube url, you'll see the url contains a timestamp that takes you to the place in the video where the answer to the question is located.
 
@@ -65,7 +65,7 @@ The Embedding index for this lesson was created with a series of Python scripts.
 
 The scripts perform the following operations:
 
-1. The transcript for each YouTube video in the [AI Show](https://www.youtube.com/playlist?list=PLlrxD0HtieHi0mwteKBOfEeOYf0LJU4O1) playlist is downloaded.
+1. The transcript for each YouTube video in the educational content playlist is downloaded.
 2. Using [OpenAI Functions](https://learn.microsoft.com/azure/ai-services/openai/how-to/function-calling?WT.mc_id=academic-105485-koreyst), an attempt is made to extract the speaker name from the first 3 minutes of the YouTube transcript. The speaker name for each video is stored in the Embedding Index named `embedding_index_3m.json`.
 3. The transcript text is then chunked into **3 minute text segments**. The segment includes about 20 words overlapping from the next segment to ensure that the Embedding for the segment is not cut off and to provide better search context.
 4. Each text segment is then passed to the OpenAI Chat API to summarize the text into 60 words. The summary is also stored in the Embedding Index `embedding_index_3m.json`.
@@ -95,9 +95,15 @@ This solution was built and tested on Windows 11, macOS, and Ubuntu 22.04 using 
 
 We introduced our startup at the beginning of this lesson. Now it's time to enable the students to build a search application for their assessments.
 
-In this assignment, you will create the Azure OpenAI Services that will be used to build the search application. You will create the following Azure OpenAI Services. You'll need an Azure subscription to complete this assignment.
+In this assignment, you will create cloud AI services that will be used to build the search application. You can use services from major cloud providers such as:
 
-### Start the Azure Cloud Shell
+- **Amazon Web Services (AWS)**: Use Amazon Bedrock or Amazon SageMaker for language models
+- **Google Cloud Platform (GCP)**: Use Vertex AI or Google Cloud AI services
+- **Microsoft Azure**: Use Azure OpenAI Services
+
+For this example, we'll show Azure setup, but similar services are available on other cloud platforms.
+
+### Start the Cloud Shell (Azure Example)
 
 1. Sign in to the [Azure portal](https://portal.azure.com/?WT.mc_id=academic-105485-koreyst).
 2. Select the Cloud Shell icon in the upper-right corner of the Azure portal.

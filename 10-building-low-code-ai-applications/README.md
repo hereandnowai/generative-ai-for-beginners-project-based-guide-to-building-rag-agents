@@ -31,23 +31,23 @@ By the end of this lesson, you will be able to:
 
 - Apply best practices when using the Create Text with GPT AI Model.
 
-The tools and technologies that you will use in this lesson are:
+The tools and technologies that you will use in this lesson include low-code platforms such as:
 
-- **Power Apps**, for the Student Assignment Tracker app, which provides a low-code development environment for building apps to track, manage and interact with data.
+- **Microsoft Power Platform** (Power Apps, Power Automate, AI Builder, Dataverse)
+- **Google AppSheet** for app development and workflow automation  
+- **Amazon Honeycode** for building applications without coding
+- **Salesforce Platform** with Flow Builder and Einstein AI
+- Other low-code/no-code platforms with AI capabilities
 
-- **Dataverse**, for storing the data for the Student Assignment Tracker app where Dataverse will provide a low-code data platform for storing the app's data.
+For this example, we'll focus on Microsoft Power Platform, but similar concepts apply to other low-code platforms.
 
-- **Power Automate**, for the Invoice Processing flow where you will have low-code development environment for building workflows to automate the Invoice Processing process.
+## Generative AI in Low-Code Platforms
 
-- **AI Builder**, for the Invoice Processing AI Model where you will use prebuilt AI Models to process the invoices for our startup.
-
-## Generative AI in Power Platform
-
-Enhancing low-code development and application with generative AI is a key focus area for Power Platform. The goal is to enable everyone to build AI-powered apps, sites, dashboards and automate processes with AI, _without requiring any data science expertise_. This goal is achieved by integrating generative AI into the low-code development experience in Power Platform in the form of Copilot and AI Builder.
+Enhancing low-code development with generative AI is becoming a key focus across cloud platforms. The goal is to enable everyone to build AI-powered apps, sites, dashboards and automate processes with AI, _without requiring any data science expertise_. This is achieved by integrating generative AI into low-code development experiences through AI assistants and pre-built AI models.
 
 ### How does this work?
 
-Copilot is an AI assistant that enables you to build Power Platform solutions by describing your requirements in a series of conversational steps using natural language. You can for example instruct your AI assistant to state what fields your app will use and it will create both the app and the underlying data model or you could specify how to set up a flow in Power Automate.
+AI assistants in low-code platforms enable you to build solutions by describing your requirements in conversational steps using natural language. You can for example instruct your AI assistant to state what fields your app will use and it will create both the app and the underlying data model, or you could specify how to set up automated workflows.
 
 You can use Copilot driven functionalities as a feature in your app screens to enable users to uncover insights through conversational interactions.
 
@@ -117,19 +117,23 @@ You will build the app using Copilot in Power Apps following the steps below:
 
 The finance team of our startup has been struggling to keep track of invoices. They have been using a spreadsheet to track the invoices but this has become difficult to manage as the number of invoices has increased. They have asked you to build a table that will help them store, track and manage the information of the invoices they received. The table should be used to build an automation that will extract all the invoice information and store it in the table. The table should also enable the finance team to view the invoices that have been paid and those that have not been paid.
 
-The Power Platform has an underlying data platform called Dataverse that enables you to store the data for your apps and solutions. Dataverse provides a low-code data platform for storing the app's data. It is a fully managed service that securely stores data in the Microsoft Cloud and is provisioned within your Power Platform environment. It comes with built-in data governance capabilities, such as data classification, data lineage, fine-grained access control, and more. You can learn more [about Dataverse here](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro?WT.mc_id=academic-109639-somelezediko).
+Low-code platforms typically include underlying data platforms that enable you to store data for your apps and solutions. These data platforms provide secure, cloud-based storage options. For example:
 
-Why should we use Dataverse for our startup? The standard and custom tables within Dataverse provide a secure and cloud-based storage option for your data. Tables let you store different types of data, similar to how you might use multiple worksheets in a single Excel workbook. You can use tables to store data that is specific to your organization or business needs. Some of the benefits our startup will get from using Dataverse include but are not limited to:
+- **Microsoft Power Platform** uses Dataverse for data storage
+- **Google AppSheet** integrates with Google Sheets, SQL databases, and other data sources
+- **Salesforce Platform** uses Salesforce objects and databases
+- **Amazon Honeycode** provides built-in database functionality
 
-- **Easy to manage**: Both the metadata and data are stored in the cloud, so you don't have to worry about the details of how they are stored or managed. You can focus on building your apps and solutions.
+These data platforms typically include built-in data governance capabilities, such as data classification, access control, and validation rules.
 
-- **Secure**: Dataverse provides a secure and cloud-based storage option for your data. You can control who has access to the data in your tables and how they can access it using role based security.
+Why should we use managed data platforms for our startup? They provide secure and cloud-based storage options for your data. You can organize data into tables or objects, similar to how you might use multiple worksheets in a spreadsheet. The benefits typically include:
 
-- **Rich metadata**: Data types and relationships are used directly within Power Apps
+- **Easy to manage**: Both metadata and data are stored in the cloud, so you don't have to worry about infrastructure details
+- **Secure**: Provide secure and cloud-based storage with role-based access controls
+- **Rich metadata**: Data types and relationships are integrated directly within the platform
+- **Logic and validation**: Business rules, calculated fields, and validation rules help enforce business logic
 
-- **Logic and validation**: You can use business rules, calculated fields, and validation rules to enforce business logic and maintain data accuracy.
-
-Now that you know what Dataverse is and why you should use it, let's look at how you can use Copilot to create a table in Dataverse to meet the requirements of our finance team.
+Now let's look at how you can use AI assistants to create data structures to meet the requirements of our finance team.
 
 > **Note** : You will use this table in the next section to build an automation that will extract all the invoice information and store it in the table.
 

@@ -40,7 +40,7 @@ To start, let’s define some basic concepts and terminology we’ll be using th
 
 ## How did we get Generative AI?
 
-Despite the extraordinary _hype_ created lately by the announcement of generative AI models, this technology is decades in the making, with the first research efforts dating back to the 60s. We're now at a point with AI having human cognitive capabilities, like conversation as shown by for example [OpenAI ChatGPT](https://openai.com/chatgpt) or [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?WT.mc_id=academic-105485-koreyst), which also uses a GPT model for the web search Bing conversations.
+Despite the extraordinary _hype_ created lately by the announcement of generative AI models, this technology is decades in the making, with the first research efforts dating back to the 60s. We're now at a point with AI having human cognitive capabilities, like conversation as shown by for example [OpenAI ChatGPT](https://openai.com/chatgpt) or AI-powered search engines, which use advanced language models for web search conversations.
 
 Backing up a bit, the very first prototypes of AI consisted of typewritten chatbots, relying on a knowledge base extracted from a group of experts and represented into a computer. The answers in the knowledge base were triggered by keywords appearing in the input text.
 However, it soon became clear that such an approach, using typewritten chatbots, did not scale well.
@@ -117,7 +117,7 @@ Also, the output of a generative AI model is not perfect and sometimes the creat
 
 Your assignment is to read up more on [generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence?WT.mc_id=academic-105485-koreyst) and try to identify an area where you would add generative AI today that doesn't have it. How would the impact be different from doing it the "old way", can you do something you couldn't before, or are you faster? Write a 300 word summary on what your dream AI startup would look like and include headers like "Problem", "How I would use AI", "Impact" and optionally a business plan.
 
-If you did this task, you might even be ready to apply to Microsoft's incubator, [Microsoft for Startups Founders Hub](https://www.microsoft.com/startups?WT.mc_id=academic-105485-koreyst) we offer credits for both Azure, OpenAI, mentoring and much more, check it out!
+If you completed this task, you're ready to start exploring AI entrepreneurship opportunities! HERE AND NOW AI offers educational resources and guidance for aspiring AI entrepreneurs. Consider exploring cloud provider startup programs from AWS, Google Cloud Platform, or Microsoft Azure, which offer credits, mentoring, and resources for AI startups.
 
 ## Knowledge check
 
